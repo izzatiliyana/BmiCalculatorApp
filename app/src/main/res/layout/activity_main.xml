@@ -343,21 +343,6 @@
 
     </RelativeLayout>
 
-    <android.widget.Button
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:id="@+id/calculatebmi"
-        android:layout_alignParentBottom="true"
-        android:textSize="15sp"
-        android:layout_marginBottom="15dp"
-        android:text="Calculate Your BMI"
-        android:textColor="@color/white"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/buttonbackground"
-        android:textStyle="bold"
-        ></android.widget.Button>
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -369,5 +354,39 @@
         android:fontFamily="@font/raleway"
         android:textSize="20sp"
         android:text="BMI CALCULATOR" />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/calculatebmi"
+        android:textSize="15sp"
+        android:layout_below="@+id/contentlayout"
+        android:layout_marginTop="620dp"
+        android:layout_marginBottom="15dp"
+        android:text="Calculate Your BMI"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonbackground"
+        android:textStyle="bold"
+        ></android.widget.Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btnabout"
+        android:textSize="15sp"
+        android:layout_below="@+id/contentlayout"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="15dp"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/black"
+        android:textStyle="bold"
+        >
+
+    </Button>
 
 </RelativeLayout>

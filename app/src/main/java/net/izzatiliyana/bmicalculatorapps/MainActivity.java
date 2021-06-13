@@ -6,6 +6,7 @@ import androidx.core.content.ContextCompat;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     android.widget.Button mcalculatebmi;
+    public Button button;
 
     TextView mcurrentheight;
     TextView mcurrentage,mcurrentweight;
@@ -39,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+
+        button = (Button) findViewById(R.id.btnabout);
 
         mcalculatebmi=findViewById(R.id.calculatebmi);
         mcurrentage=findViewById(R.id.currentage);
@@ -68,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
                 mfemale.setBackground(ContextCompat.getDrawable(getApplicationContext(),R.drawable.malefemalefocus));
                 mmale.setBackground(ContextCompat.getDrawable(getApplicationContext(),R.drawable.malefemalenotfocus));
                 typeofuser="Female";
+            }
+        });
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (MainActivity.this,About.class);
+                startActivity(intent);
             }
         });
 

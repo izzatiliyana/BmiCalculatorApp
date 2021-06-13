@@ -114,17 +114,6 @@
         android:textStyle="bold"
         ></android.widget.Button>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NurIzzatiLiyana/RCS2515A/Copyright"
-        android:id="@+id/about"
-        android:background="#3F0368"
-        android:textColor="@color/white"
-        android:fontFamily="@font/raleway"
-        android:layout_marginTop="650dp"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+
 
 </RelativeLayout>
