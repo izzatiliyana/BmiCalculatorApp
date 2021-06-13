@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F0368"
+    tools:context=".About">
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/recalculatebmi"
+        android:textSize="15sp"
+        android:layout_below="@+id/contentlayout"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="15dp"
+        android:text="Calculate Your BMI"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonbackground"
+        android:textStyle="bold"
+        ></android.widget.Button>
+
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/raleway"
+        android:textSize="25sp"
+        android:text="ABOUT US" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/deve">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/raleway"
+        android:textSize="20sp"
+        android:text="Developer's Details" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/raleway"
+        android:textSize="20sp"
+        android:text="Nur Izzati Liyana Ahmad" />
+
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/raleway"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:text="Copyright." />
+
+
+
+
+
+</RelativeLayout>
